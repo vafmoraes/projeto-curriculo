@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+    :root {
+    --cor01: #1E3859;
+    --cor02: #264773;
+    --cor03: #32598C;
+    --cor04: #3C6AA6;
+    --cor05: #A4B3BF;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-h1: Georgia, 'Times New Roman', Times, serif;;
+    --font-h3: 'Bebas Neue', 'cursive'; ;
+    }
+
+    *{
+    margin: 0px;
+    padding: 0px;   
+    }
+
+    header {
+    font-family: var(--font-h1);
+    width: auto;
+    height: 150px;
+    padding: 20px;
+    background-color: var(--cor01);
+    color: white;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 5px rgba(255, 255, 255, 0.141);
+    }
+
+    header h1, h2 {
+        padding: 10px;
+    }
+
+    body {
+        font-family: var(--font-padrao);
+        background-image: linear-gradient(to bottom, #264773, #32598C, #3C6AA6, #A4B3BF, white);
+    }
+
+    main {
+        min-width: 280px;
+        max-width: 800px;
+        margin: auto;  
+        background-color: white; 
+        box-shadow: 0px 5px 0px 5px rgba(0, 0, 0, 0.141); 
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;  
+    }
+
+    section#redes {
+        padding-top: 80px;
+        text-align: center;
+
+    }
+
+    section#redes img {    
+        width: 30px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400); 
+        box-sizing: border-box; 
+    }
+
+    section#redes img:hover {
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+        transition: transform .3s, border .2s;
+    }
+
+    #descricao {
+        margin: auto;
+        padding: 20px;
+        text-align: justify;
+        text-indent: 30px;
+    }
+
+    nav {
+        background-color: var(--cor05);
+        width: 300px;
+        padding: 10px;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0 ,0.315);
+        margin: auto;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+    }
+    
+    nav > a {
+        color: var(--Cor4);
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    nav > a:hover {
+        background-color: var(--Cor5);
+        border-radius: 5px;
+        color: var(--cor03);
+        transition-duration: .5s;
+    }
+
+    h3 {
+        background-color: var(--cor05);
+        color: var(--cor01);
+        font-family: var(--font-h3);
+        text-align: center;
+        font-size: 1.5em;
+        padding: 10px;  
+        margin: 20px 20px; 
+        min-width: 280px;
+        max-width: 800px; 
+        border: 1px solid #1E3859;
+        border-radius: 5px;
+        box-shadow: 0px 1px 1px 1px var(--cor05);
+    }
+     
+    #profissao {
+        background-color: var(--cor05);
+        margin: auto;
+        width: 300px;
+        padding: 10px;
+        text-align: center; 
+        list-style: none;
+        border: 0.5px #1E3859;
+        border-radius: 5px;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0 ,0.315); 
+    }
+
+    iframe#tela {
+        background-color: #c5cfd6b2;
+        width: 650px;
+        margin: 20px 50px 10px 70px;
+        border: 1px solid var(--cor03);
+        border-radius: 5px;
+    }
+
+    #habilidades > ul {
+        display: inline-block;
+        width: 340px;
+        border: 1px solid var(--cor01);
+        border-radius: 5px;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.215);  
+        text-align: center;
+        font-size: 1em;
+        line-height: 1em;
+        margin: 0px 20px 10px;
+        padding: 5px;
+        list-style: none;
+        color: var(--cor01);
+    }
+
+    h4 {
+        text-align: center;   
+    }
+
+      
+    footer {
+        background-color: var(--cor01);
+        color: white;
+        text-align: center;
+        font-size: 0.8em;
+        padding: 15px;
+    }
+    
+    footer a {
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+        color: black;
+    }
