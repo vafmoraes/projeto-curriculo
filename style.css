@@ -19,6 +19,11 @@
     padding: 0px;   
     }
 
+    html, body {
+        height: 100vh;
+        width: 100vh;
+    }
+
     header {
     font-family: var(--font-h1);
     width: auto;
