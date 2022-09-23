@@ -27,7 +27,7 @@
 
     header {
         font-family: var(--font-h1);
-        width: auto;
+        width: 100vw;
         height: 150px;
         padding: 20px;
         background-color: var(--cor01);
@@ -39,6 +39,7 @@
 
     header h1, h2 {
         padding: 10px;
+        
     }
 
     body {
@@ -47,12 +48,19 @@
 
     main {
         position: relative;
-        height: 100vh;
+        width: 750px;
+        height: 100%vh;
         margin: auto;  
         background-color: white; 
         box-shadow: 0px 5px 0px 5px rgba(0, 0, 0, 0.141); 
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;  
+    }
+
+    #vanessa {
+        position: absolute;
+        top: -60px;
+        left: 250px;
     }
 
     section#redes {
@@ -136,12 +144,9 @@
     }
 
     iframe#tela {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+       
         background-color: #c5cfd6b2;
-        width: 650px;
+        
         margin: 20px 50px 10px 70px;
         border: 1px solid var(--cor03);
         border-radius: 5px;
