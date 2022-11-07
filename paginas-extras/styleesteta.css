@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #ffffff;
+    --cor02: #000000;
+
+    --font-h1: Georgia, 'Times New Roman', Times, serif;;
+    --font-h2: 'Bebas Neue', 'cursive'; ;
+    }
+
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+body {
+    background-image: url(imagens/estetica.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;;
+    padding: 20px;
+    margin: auto; 
+}
+
+main {
+    width: 70%;
+    height: 100%;
+    text-align: justify;
+    margin: auto;
+    
+}
+
+h1 {
+    margin: 50px 0px;
+    color: var(--cor02);
+    font: var(--font-h1);
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: var(--cor02);
+    font: var(--font-h2);
+    font-size: 1.3em;
+    text-align: center;
+}
